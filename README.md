@@ -1,5 +1,24 @@
 # Astro Starter Kit: Basics
 
+
+## Brainstorming
+1. tokenfield input?
+   1. https://sliptree.github.io/bootstrap-tokenfield/
+2. filtering table?
+3. Select an effect to filter
+   1. e.g., Select "Invisibility" in the table to filter all ingredients with that effect
+   2. Then Select another effect "Detect Key" to include ingredients with that effect as well
+
+## Goals
+1. Quick lookup of an ingredients effects (ingredient -> effects)
+2. Quick lookup of all ingredients with an effect (effect -> ingredients)
+3. Potion building
+   1. Combine ingredients to get multiple effects
+   2. Start with effect? Or start with ingredients?
+4. Add Tamriel Data ingredients
+   1. toggle to include
+5. Static + Cache everything
+
 ```sh
 npm create astro@latest -- --template basics
 ```
