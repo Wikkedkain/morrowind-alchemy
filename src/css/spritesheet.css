@@ -1,0 +1,178 @@
+
+.ingredient, .effect, .potion {
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  margin-top: -2px;
+}
+.medium {
+  transform: scale(1.25);
+}
+.large {
+  transform: scale(1.5);
+}
+
+/* Ingredients spritesheet */
+.ingredient { background: url('https://cdn.glitch.com/8539495c-7f63-46fe-ab4b-10d54e3bd285%2Fingredient-spritesheet.png?v=1560351234019') no-repeat top left; width: 32px; height: 32px;  } 
+.ingredient.Ingredient_Adamantium_Ore { background-position: 0 0; } 
+.ingredient.Ingredient_Alit_Hide { background-position: 0 -42px; } 
+.ingredient.Ingredient_Ampoule_Pod { background-position: 0 -84px; } 
+.ingredient.Ingredient_Ash_Salts { background-position: 0 -126px; } 
+.ingredient.Ingredient_Ash_Yam { background-position: 0 -168px; } 
+.ingredient.Ingredient_Bear_Pelt { background-position: 0 -210px; } 
+.ingredient.Ingredient_Belladonna_Berries { background-position: 0 -252px; } 
+.ingredient.Ingredient_Bittergreen_Petal { background-position: 0 -294px; } 
+.ingredient.Ingredient_Black_Anther { background-position: 0 -336px; } 
+.ingredient.Ingredient_Black_Lichen { background-position: 0 -378px; } 
+.ingredient.Ingredient_Bloat { background-position: 0 -420px; } 
+.ingredient.Ingredient_Bonemeal { background-position: 0 -462px; } 
+.ingredient.Ingredient_Bread { background-position: 0 -504px; } 
+.ingredient.Ingredient_Bristleback_Leather { background-position: 0 -546px; } 
+.ingredient.Ingredient_Bunglers_Bane { background-position: 0 -588px; } 
+.ingredient.Ingredient_Chokeweed { background-position: 0 -630px; } 
+.ingredient.Ingredient_Coda_Flower { background-position: 0 -672px; } 
+.ingredient.Ingredient_Comberry { background-position: 0 -714px; } 
+.ingredient.Ingredient_Corkbulb_Root { background-position: 0 -756px; } 
+.ingredient.Ingredient_Corprus_Weepings { background-position: 0 -798px; } 
+.ingredient.Ingredient_Corpusmeat_01 { background-position: 0 -840px; } 
+.ingredient.Ingredient_Corpusmeat_02 { background-position: 0 -882px; } 
+.ingredient.Ingredient_Corpusmeat_03 { background-position: 0 -924px; } 
+.ingredient.Ingredient_Corpusmeat_04 { background-position: 0 -966px; } 
+.ingredient.Ingredient_Corpusmeat_05 { background-position: 0 -1008px; } 
+.ingredient.Ingredient_Corpusmeat_06 { background-position: 0 -1050px; } 
+.ingredient.Ingredient_Corpusmeat_07 { background-position: 0 -1092px; } 
+.ingredient.Ingredient_Crab_Meat { background-position: 0 -1134px; } 
+.ingredient.Ingredient_Daedra_Skin { background-position: 0 -1176px; } 
+.ingredient.Ingredient_Daedras_Heart { background-position: 0 -1218px; } 
+.ingredient.Ingredient_Diamond { background-position: 0 -1260px; } 
+.ingredient.Ingredient_Dreugh_Wax { background-position: 0 -1302px; } 
+.ingredient.Ingredient_Durzog_Meat { background-position: 0 -1344px; } 
+.ingredient.Ingredient_Ectoplasm { background-position: 0 -1386px; } 
+.ingredient.Ingredient_Emerald { background-position: 0 -1428px; } 
+.ingredient.Ingredient_Fire_Petal { background-position: 0 -1470px; } 
+.ingredient.Ingredient_Fire_Salts { background-position: 0 -1512px; } 
+.ingredient.Ingredient_Frost_Salts { background-position: 0 -1554px; } 
+.ingredient.Ingredient_Ghoul_Heart { background-position: 0 -1596px; } 
+.ingredient.Ingredient_Gold_Kanet { background-position: 0 -1638px; } 
+.ingredient.Ingredient_Golden_Sedge { background-position: 0 -1680px; } 
+.ingredient.Ingredient_Grahl_Eyeball { background-position: 0 -1722px; } 
+.ingredient.Ingredient_Gravedust { background-position: 0 -1764px; } 
+.ingredient.Ingredient_Gravetar { background-position: 0 -1806px; } 
+.ingredient.Ingredient_Green_Lichen { background-position: 0 -1848px; } 
+.ingredient.Ingredient_Guar_Hide { background-position: 0 -1890px; } 
+.ingredient.Ingredient_Hackle-Lo_Leaf { background-position: 0 -1932px; } 
+.ingredient.Ingredient_Heartwood { background-position: 0 -1974px; } 
+.ingredient.Ingredient_Heather { background-position: 0 -2016px; } 
+.ingredient.Ingredient_Holly_Berries { background-position: 0 -2058px; } 
+.ingredient.Ingredient_Horker_Tusk { background-position: 0 -2100px; } 
+.ingredient.Ingredient_Horn_Lily_Bulb { background-position: 0 -2142px; } 
+.ingredient.Ingredient_Hound_Meat { background-position: 0 -2184px; } 
+.ingredient.Ingredient_Hypha_Facia { background-position: 0 -2226px; } 
+.ingredient.Ingredient_Kagouti_Hide { background-position: 0 -2268px; } 
+.ingredient.Ingredient_Kresh_Fiber { background-position: 0 -2310px; } 
+.ingredient.Ingredient_Kwama_Cuttle { background-position: 0 -2352px; } 
+.ingredient.Ingredient_Kwama_Egg { background-position: 0 -2394px; } 
+.ingredient.Ingredient_Lloramor_Spines { background-position: 0 -2436px; } 
+.ingredient.Ingredient_Luminous_Russula { background-position: 0 -2478px; } 
+.ingredient.Ingredient_Marshmerrow { background-position: 0 -2520px; } 
+.ingredient.Ingredient_Meadow_Rye { background-position: 0 -2562px; } 
+.ingredient.Ingredient_Moon_Sugar { background-position: 0 -2604px; } 
+.ingredient.Ingredient_Muck { background-position: 0 -2646px; } 
+.ingredient.Ingredient_Netch_Leather { background-position: 0 -2688px; } 
+.ingredient.Ingredient_Nirthfly_Stalks { background-position: 0 -2730px; } 
+.ingredient.Ingredient_Noble_Sedge { background-position: 0 -2772px; } 
+.ingredient.Ingredient_Pearl { background-position: 0 -2814px; } 
+.ingredient.Ingredient_Racer_Plumes { background-position: 0 -2856px; } 
+.ingredient.Ingredient_Rat_Meat { background-position: 0 -2898px; } 
+.ingredient.Ingredient_Raw_Ebony { background-position: 0 -2940px; } 
+.ingredient.Ingredient_Raw_Glass { background-position: 0 -2982px; } 
+.ingredient.Ingredient_Raw_Stalhrim { background-position: 0 -3024px; } 
+.ingredient.Ingredient_Red_Lichen { background-position: 0 -3066px; } 
+.ingredient.Ingredient_Resin { background-position: 0 -3108px; } 
+.ingredient.Ingredient_Roobrush { background-position: 0 -3150px; } 
+.ingredient.Ingredient_Ruby { background-position: 0 -3192px; } 
+.ingredient.Ingredient_Saltrice { background-position: 0 -3234px; } 
+.ingredient.Ingredient_Scales { background-position: 0 -3276px; } 
+.ingredient.Ingredient_Scamp_Skin { background-position: 0 -3318px; } 
+.ingredient.Ingredient_Scathecraw { background-position: 0 -3360px; } 
+.ingredient.Ingredient_Scrap_Metal { background-position: 0 -3402px; } 
+.ingredient.Ingredient_Scrib_Cabbage { background-position: 0 -3444px; } 
+.ingredient.Ingredient_Scrib_Jelly { background-position: 0 -3486px; } 
+.ingredient.Ingredient_Scrib_Jerky { background-position: 0 -3528px; } 
+.ingredient.Ingredient_Scuttle { background-position: 0 -3570px; } 
+.ingredient.Ingredient_Shalk_Resin { background-position: 0 -3612px; } 
+.ingredient.Ingredient_Sload_Soap { background-position: 0 -3654px; } 
+.ingredient.Ingredient_Snow_Bear_Pelt { background-position: 0 -3696px; } 
+.ingredient.Ingredient_Snow_Wolf_Pelt { background-position: 0 -3738px; } 
+.ingredient.Ingredient_Spore_Pod { background-position: 0 -3780px; } 
+.ingredient.Ingredient_Stoneflower_Petals { background-position: 0 -3822px; } 
+.ingredient.Ingredient_Sweetpulp { background-position: 0 -3864px; } 
+.ingredient.Ingredient_Timsa-Come-By_Flowers { background-position: 0 -3906px; } 
+.ingredient.Ingredient_Trama_Root { background-position: 0 -3948px; } 
+.ingredient.Ingredient_Vampire_Dust { background-position: 0 -3990px; } 
+.ingredient.Ingredient_Violet_Coprinus { background-position: 0 -4032px; } 
+.ingredient.Ingredient_Void_Salts { background-position: 0 -4074px; } 
+.ingredient.Ingredient_Wickwheat { background-position: 0 -4116px; } 
+.ingredient.Ingredient_Willow_Anther { background-position: 0 -4158px; } 
+.ingredient.Ingredient_Wolf_Pelt { background-position: 0 -4200px; } 
+.ingredient.Ingredient_Wolfsbane_Petals { background-position: 0 -4242px; } 
+
+/* Effects spritesheet */
+.effect { background: url('https://cdn.glitch.com/8539495c-7f63-46fe-ab4b-10d54e3bd285%2Feffect-spritesheet.png?v=1560351126492') no-repeat top left; width: 16px; height: 16px;  } 
+.effect.Effect_Blind { background-position: 0 0; } 
+.effect.Effect_Burden { background-position: 0 -26px; } 
+.effect.Effect_Cure_Blight_Disease { background-position: 0 -52px; } 
+.effect.Effect_Cure_Common_Disease { background-position: 0 -78px; } 
+.effect.Effect_Cure_Paralyzation { background-position: 0 -104px; } 
+.effect.Effect_Cure_Poison { background-position: 0 -130px; } 
+.effect.Effect_Damage_Attribute { background-position: 0 -156px; } 
+.effect.Effect_Damage_Fatigue { background-position: 0 -182px; } 
+.effect.Effect_Damage_Health { background-position: 0 -208px; } 
+.effect.Effect_Damage_Magicka { background-position: 0 -234px; } 
+.effect.Effect_Detect_Animal { background-position: 0 -260px; } 
+.effect.Effect_Detect_Enchantment { background-position: 0 -286px; } 
+.effect.Effect_Detect_Key { background-position: 0 -312px; } 
+.effect.Effect_Dispel { background-position: 0 -338px; } 
+.effect.Effect_Drain_Attribute { background-position: 0 -364px; } 
+.effect.Effect_Drain_Fatigue { background-position: 0 -390px; } 
+.effect.Effect_Drain_Health { background-position: 0 -416px; } 
+.effect.Effect_Drain_Magicka { background-position: 0 -442px; } 
+.effect.Effect_Drain_Skill { background-position: 0 -468px; } 
+.effect.Effect_Feather { background-position: 0 -494px; } 
+.effect.Effect_Fire_Shield { background-position: 0 -520px; } 
+.effect.Effect_Fortify_Attack { background-position: 0 -546px; } 
+.effect.Effect_Fortify_Attribute { background-position: 0 -572px; } 
+.effect.Effect_Fortify_Fatigue { background-position: 0 -598px; } 
+.effect.Effect_Fortify_Health { background-position: 0 -624px; } 
+.effect.Effect_Fortify_Magicka { background-position: 0 -650px; } 
+.effect.Effect_Fortify_Maximum_Magicka { background-position: 0 -676px; } 
+.effect.Effect_Frost_Damage { background-position: 0 -702px; } 
+.effect.Effect_Frost_Shield { background-position: 0 -728px; } 
+.effect.Effect_Invisibility { background-position: 0 -754px; } 
+.effect.Effect_Levitate { background-position: 0 -780px; } 
+.effect.Effect_Light { background-position: 0 -806px; } 
+.effect.Effect_Lightning_Shield { background-position: 0 -832px; } 
+.effect.Effect_Night_Eye { background-position: 0 -858px; } 
+.effect.Effect_Paralyze { background-position: 0 -884px; } 
+.effect.Effect_Poison { background-position: 0 -910px; } 
+.effect.Effect_Recall { background-position: 0 -936px; } 
+.effect.Effect_Reflect { background-position: 0 -962px; } 
+.effect.Effect_Resist_Common_Disease { background-position: 0 -988px; } 
+.effect.Effect_Resist_Fire { background-position: 0 -1014px; } 
+.effect.Effect_Resist_Frost { background-position: 0 -1040px; } 
+.effect.Effect_Resist_Magicka { background-position: 0 -1066px; } 
+.effect.Effect_Resist_Paralysis { background-position: 0 -1092px; } 
+.effect.Effect_Resist_Poison { background-position: 0 -1118px; } 
+.effect.Effect_Resist_Shock { background-position: 0 -1144px; } 
+.effect.Effect_Restore_Attribute { background-position: 0 -1170px; } 
+.effect.Effect_Restore_Fatigue { background-position: 0 -1196px; } 
+.effect.Effect_Restore_Health { background-position: 0 -1222px; } 
+.effect.Effect_Restore_Magicka { background-position: 0 -1248px; } 
+.effect.Effect_Spell_Absorption { background-position: 0 -1274px; } 
+.effect.Effect_Swift_Swim { background-position: 0 -1300px; } 
+.effect.Effect_Telekinesis { background-position: 0 -1326px; } 
+.effect.Effect_Vampirism { background-position: 0 -1352px; } 
+.effect.Effect_Water_Breathing { background-position: 0 -1378px; } 
+.effect.Effect_Water_Walking { background-position: 0 -1404px; } 
+.effect.Effect_Weakness_to_Fire { background-position: 0 -1430px; } 
+.effect.Effect_Weakness_to_Poison { background-position: 0 -1456px; } 

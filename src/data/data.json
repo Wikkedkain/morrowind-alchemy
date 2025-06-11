@@ -1,0 +1,1206 @@
+{
+  "ingredients": [
+    {
+       "name":"Adamantium Ore (T)",
+       "effect1":"Burden",
+       "effect2":"Restore Magicka",
+       "effect3":"Poison",
+       "effect4":"Reflect",
+       "image":"Ingredient_Adamantium_Ore"
+    },
+    {
+       "name":"Alit Hide",
+       "effect1":"Drain Intelligence",
+       "effect2":"Resist Poison",
+       "effect3":"Telekinesis",
+       "effect4":"Detect Animal",
+       "image":"Ingredient_Alit_Hide"
+    },
+    {
+       "name":"Ampoule Pod",
+       "effect1":"Water Walking",
+       "effect2":"Paralyze",
+       "effect3":"Detect Animal",
+       "effect4":"Drain Willpower",
+       "image":"Ingredient_Ampoule_Pod"
+    },
+    {
+       "name":"Ash Salts",
+       "effect1":"Drain Agility",
+       "effect2":"Resist Magicka",
+       "effect3":"Cure Blight Disease",
+       "effect4":"",
+       "image":"Ingredient_Ash_Salts"
+    },
+    {
+       "name":"Ash Yam",
+       "effect1":"Fortify Intelligence",
+       "effect2":"Fortify Strength",
+       "effect3":"Resist Common Disease",
+       "effect4":"Detect Key",
+       "image":"Ingredient_Ash_Yam"
+    },
+    {
+       "name":"Bear Pelt (B)",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Strength",
+       "effect3":"Resist Common Disease",
+       "effect4":"Night Eye",
+       "image":"Ingredient_Bear_Pelt"
+    },
+    {
+       "name":"Bittergreen Petals",
+       "effect1":"Restore Intelligence",
+       "effect2":"Invisibility",
+       "effect3":"Drain Endurance",
+       "effect4":"Drain Magicka",
+       "image":"Ingredient_Bittergreen_Petal"
+    },
+    {
+       "name":"Black Anther",
+       "effect1":"Drain Agility",
+       "effect2":"Resist Fire",
+       "effect3":"Drain Endurance",
+       "effect4":"Light",
+       "image":"Ingredient_Black_Anther"
+    },
+    {
+       "name":"Black Lichen",
+       "effect1":"Drain Strength",
+       "effect2":"Resist Frost",
+       "effect3":"Drain Speed",
+       "effect4":"Cure Poison",
+       "image":"Ingredient_Black_Lichen"
+    },
+    {
+       "name":"Bloat",
+       "effect1":"Drain Magicka",
+       "effect2":"Fortify Intelligence",
+       "effect3":"Fortify Willpower",
+       "effect4":"Detect Animal",
+       "image":"Ingredient_Bloat"
+    },
+    {
+       "name":"Bonemeal",
+       "effect1":"Restore Agility",
+       "effect2":"Telekinesis",
+       "effect3":"Drain Fatigue",
+       "effect4":"Drain Personality",
+       "image":"Ingredient_Bonemeal"
+    },
+    {
+       "name":"Bread",
+       "effect1":"Restore Fatigue",
+       "effect2":"",
+       "effect3":"",
+       "effect4":"",
+       "image":"Ingredient_Bread"
+    },
+    {
+       "name":"Bristleback Leather (B)",
+       "effect1":"Blind",
+       "effect2":"Frost Damage",
+       "effect3":"Resist Frost",
+       "effect4":"Recall",
+       "image":"Ingredient_Bristleback_Leather"
+    },
+    {
+       "name":"Bungler's Bane",
+       "effect1":"Drain Speed",
+       "effect2":"Drain Endurance",
+       "effect3":"Dispel",
+       "effect4":"Drain Strength",
+       "image":"Ingredient_Bunglers_Bane"
+    },
+    {
+       "name":"Chokeweed",
+       "effect1":"Drain Luck",
+       "effect2":"Restore Fatigue",
+       "effect3":"Cure Common Disease",
+       "effect4":"Drain Willpower",
+       "image":"Ingredient_Chokeweed"
+    },
+    {
+       "name":"Coda Flower",
+       "effect1":"Drain Personality",
+       "effect2":"Levitate",
+       "effect3":"Drain Intelligence",
+       "effect4":"Drain Health",
+       "image":"Ingredient_Coda_Flower"
+    },
+    {
+       "name":"Comberry",
+       "effect1":"Drain Fatigue",
+       "effect2":"Restore Magicka",
+       "effect3":"Fire Shield",
+       "effect4":"Reflect",
+       "image":"Ingredient_Comberry"
+    },
+    {
+       "name":"Corkbulb Root",
+       "effect1":"Cure Paralyzation",
+       "effect2":"Restore Health",
+       "effect3":"Lightning Shield",
+       "effect4":"Fortify Luck",
+       "image":"Ingredient_Corkbulb_Root"
+    },
+    {
+       "name":"Corpus Weepings",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Luck",
+       "effect3":"Drain Willpower",
+       "effect4":"Restore Health",
+       "image":"Ingredient_Corprus_Weepings"
+    },
+    {
+       "name":"Crab Meat",
+       "effect1":"Restore Fatigue",
+       "effect2":"Resist Shock",
+       "effect3":"Lightning Shield",
+       "effect4":"Restore Luck",
+       "image":"Ingredient_Crab_Meat"
+    },
+    {
+       "name":"Daedra Skin",
+       "effect1":"Fortify Strength",
+       "effect2":"Cure Common Disease",
+       "effect3":"Paralyze",
+       "effect4":"Swift Swim",
+       "image":"Ingredient_Daedra_Skin"
+    },
+    {
+       "name":"Daedra's Heart",
+       "effect1":"Restore Magicka",
+       "effect2":"Fortify Endurance",
+       "effect3":"Drain Agility",
+       "effect4":"Night Eye",
+       "image":"Ingredient_Daedras_Heart"
+    },
+    {
+       "name":"Diamond",
+       "effect1":"Drain Agility",
+       "effect2":"Invisibility",
+       "effect3":"Reflect",
+       "effect4":"Detect Key",
+       "image":"Ingredient_Diamond"
+    },
+    {
+       "name":"Dreugh Wax",
+       "effect1":"Fortify Strength",
+       "effect2":"Restore Strength",
+       "effect3":"Drain Luck",
+       "effect4":"Drain Willpower",
+       "image":"Ingredient_Dreugh_Wax"
+    },
+    {
+       "name":"Durzog Meat (T)",
+       "effect1":"Fortify Agility",
+       "effect2":"Fortify Strength",
+       "effect3":"Blind",
+       "effect4":"Damage Magicka",
+       "image":"Ingredient_Durzog_Meat"
+    },
+    {
+       "name":"Ectoplasm",
+       "effect1":"Fortify Agility",
+       "effect2":"Detect Animal",
+       "effect3":"Drain Strength",
+       "effect4":"Drain Health",
+       "image":"Ingredient_Ectoplasm"
+    },
+    {
+       "name":"Emerald",
+       "effect1":"Fortify Magicka",
+       "effect2":"Restore Health",
+       "effect3":"Drain Agility",
+       "effect4":"Drain Endurance",
+       "image":"Ingredient_Emerald"
+    },
+    {
+       "name":"Fire Petal",
+       "effect1":"Resist Fire",
+       "effect2":"Drain Health",
+       "effect3":"Spell Absorption",
+       "effect4":"Paralyze",
+       "image":"Ingredient_Fire_Petal"
+    },
+    {
+       "name":"Fire Salts",
+       "effect1":"Drain Health",
+       "effect2":"Fortify Agility",
+       "effect3":"Resist Frost",
+       "effect4":"Fire Shield",
+       "image":"Ingredient_Fire_Salts"
+    },
+    {
+       "name":"Flaming Eye of the Lightkeeper (B)",
+       "effect1":"Resist Frost",
+       "effect2":"Night Eye",
+       "effect3":"Drain Magicka",
+       "effect4":"Fortify Strength",
+       "image":"Ingredient_Grahl_Eyeball"
+    },
+    {
+       "name":"Frost Salts",
+       "effect1":"Drain Speed",
+       "effect2":"Restore Magicka",
+       "effect3":"Frost Shield",
+       "effect4":"Resist Fire",
+       "image":"Ingredient_Frost_Salts"
+    },
+    {
+       "name":"Ghoul Heart",
+       "effect1":"Paralyze",
+       "effect2":"Cure Poison",
+       "effect3":"Fortify Attack",
+       "effect4":"",
+       "image":"Ingredient_Ghoul_Heart"
+    },
+    {
+       "name":"Gold Kanet",
+       "effect1":"Drain Health",
+       "effect2":"Burden",
+       "effect3":"Drain Luck",
+       "effect4":"Restore Strength",
+       "image":"Ingredient_Gold_Kanet"
+    },
+    {
+       "name":"Golden Sedge Flowers (T)",
+       "effect1":"Drain Magicka",
+       "effect2":"Fortify Strength",
+       "effect3":"Fortify Attack",
+       "effect4":"Swift Swim",
+       "image":"Ingredient_Golden_Sedge"
+    },
+    {
+       "name":"Grahl Eyeball (B)",
+       "effect1":"Resist Frost",
+       "effect2":"Night Eye",
+       "effect3":"Drain Magicka",
+       "effect4":"Fortify Magicka",
+       "image":"Ingredient_Grahl_Eyeball"
+    },
+    {
+       "name":"Gravedust",
+       "effect1":"Drain Intelligence",
+       "effect2":"Cure Common Disease",
+       "effect3":"Drain Magicka",
+       "effect4":"Restore Endurance",
+       "image":"Ingredient_Gravedust"
+    },
+    {
+       "name":"Gravetar (B)",
+       "effect1":"Resist Frost",
+       "effect2":"Drain Health",
+       "effect3":"Fortify Fatigue",
+       "effect4":"Drain Luck",
+       "image":"Ingredient_Gravetar"
+    },
+    {
+       "name":"Green Lichen",
+       "effect1":"Fortify Personality",
+       "effect2":"Cure Common Disease",
+       "effect3":"Drain Strength",
+       "effect4":"Drain Health",
+       "image":"Ingredient_Green_Lichen"
+    },
+    {
+       "name":"Guar Hide",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Endurance",
+       "effect3":"Restore Personality",
+       "effect4":"Fortify Luck",
+       "image":"Ingredient_Guar_Hide"
+    },
+    {
+       "name":"Hackle-Lo Leaf",
+       "effect1":"Restore Fatigue",
+       "effect2":"Paralyze",
+       "effect3":"Water Breathing",
+       "effect4":"Restore Luck",
+       "image":"Ingredient_Hackle-Lo_Leaf"
+    },
+    {
+       "name":"Heart of the Udyrfrykte (B)",
+       "effect1":"Restore Magicka",
+       "effect2":"Fortify Endurance",
+       "effect3":"Drain Agility",
+       "effect4":"Night Eye",
+       "image":"Ingredient_Daedras_Heart"
+    },
+    {
+       "name":"Heartwood (B)",
+       "effect1":"Restore Magicka",
+       "effect2":"Fortify Agility",
+       "effect3":"Drain Strength",
+       "effect4":"Weakness to Fire",
+       "image":"Ingredient_Heartwood"
+    },
+    {
+       "name":"Heather",
+       "effect1":"Restore Personality",
+       "effect2":"Feather",
+       "effect3":"Drain Speed",
+       "effect4":"Drain Personality",
+       "image":"Ingredient_Heather"
+    },
+    {
+       "name":"Holly Berries (B)",
+       "effect1":"Resist Frost",
+       "effect2":"Frost Shield",
+       "effect3":"Frost Damage",
+       "effect4":"Weakness to Fire",
+       "image":"Ingredient_Holly_Berries"
+    },
+    {
+       "name":"Horker Tusk (B)",
+       "effect1":"Drain Alteration",
+       "effect2":"Fortify Intelligence",
+       "effect3":"Fortify Maximum Magicka",
+       "effect4":"Detect Animal",
+       "image":"Ingredient_Horker_Tusk"
+    },
+    {
+       "name":"Horn Lily Bulb (T)",
+       "effect1":"Resist Paralysis",
+       "effect2":"Drain Health",
+       "effect3":"Restore Strength",
+       "effect4":"Restore Endurance",
+       "image":"Ingredient_Horn_Lily_Bulb"
+    },
+    {
+       "name":"Hound Meat",
+       "effect1":"Restore Fatigue",
+       "effect2":"Fortify Fatigue",
+       "effect3":"Reflect",
+       "effect4":"Detect Enchantment",
+       "image":"Ingredient_Hound_Meat"
+    },
+    {
+       "name":"Human flesh",
+       "effect1":"Fortify Health",
+       "effect2":"Drain Intelligence",
+       "effect3":"Drain Personality",
+       "effect4":"",
+       "image":"Ingredient_Rat_Meat"
+    },
+    {
+       "name":"Hypha Facia",
+       "effect1":"Drain Luck",
+       "effect2":"Drain Agility",
+       "effect3":"Drain Fatigue",
+       "effect4":"Detect Enchantment",
+       "image":"Ingredient_Hypha_Facia"
+    },
+    {
+       "name":"Kagouti Hide",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Speed",
+       "effect3":"Resist Common Disease",
+       "effect4":"Night Eye",
+       "image":"Ingredient_Kagouti_Hide"
+    },
+    {
+       "name":"Kresh Fiber",
+       "effect1":"Restore Luck",
+       "effect2":"Fortify Personality",
+       "effect3":"Drain Magicka",
+       "effect4":"Drain Speed",
+       "image":"Ingredient_Kresh_Fiber"
+    },
+    {
+       "name":"Kwama Cuttle",
+       "effect1":"Resist Poison",
+       "effect2":"Drain Fatigue",
+       "effect3":"Water Walking",
+       "effect4":"Water Breathing",
+       "image":"Ingredient_Kwama_Cuttle"
+    },
+    {
+       "name":"Large Corprusmeat Hunk",
+       "effect1":"Drain Fatigue",
+       "effect2":"Drain Health",
+       "effect3":"Drain Magicka",
+       "effect4":"",
+       "image":"Ingredient_Corpusmeat_05"
+    },
+    {
+       "name":"Large Kwama Egg",
+       "effect1":"Restore Fatigue",
+       "effect2":"Paralyze",
+       "effect3":"Frost Shield",
+       "effect4":"Fortify Health",
+       "image":"Ingredient_Kwama_Egg"
+    },
+    {
+       "name":"Large Wrapped Corprusmeat",
+       "effect1":"Drain Fatigue",
+       "effect2":"Drain Health",
+       "effect3":"Drain Magicka",
+       "effect4":"",
+       "image":"Ingredient_Corpusmeat_01"
+    },
+    {
+       "name":"Lloramor Spines (T)",
+       "effect1":"Spell Absorption",
+       "effect2":"Invisibility",
+       "effect3":"Poison",
+       "effect4":"Detect Enchantment",
+       "image":"Ingredient_Lloramor_Spines"
+    },
+    {
+       "name":"Luminous Russula",
+       "effect1":"Water Breathing",
+       "effect2":"Drain Fatigue",
+       "effect3":"Poison",
+       "effect4":"",
+       "image":"Ingredient_Luminous_Russula"
+    },
+    {
+       "name":"Marshmerrow",
+       "effect1":"Restore Health",
+       "effect2":"Detect Enchantment",
+       "effect3":"Drain Willpower",
+       "effect4":"Drain Fatigue",
+       "image":"Ingredient_Marshmerrow"
+    },
+    {
+       "name":"Meadow Rye (T)",
+       "effect1":"Fortify Speed",
+       "effect2":"Damage Health",
+       "effect3":"Restore Speed",
+       "effect4":"Drain Speed",
+       "image":"Ingredient_Meadow_Rye"
+    },
+    {
+       "name":"Medium Corprusmeat Hunk",
+       "effect1":"Drain Fatigue",
+       "effect2":"Drain Health",
+       "effect3":"Drain Magicka",
+       "effect4":"",
+       "image":"Ingredient_Corpusmeat_06"
+    },
+    {
+       "name":"Medium Wrapped Corprusmeat",
+       "effect1":"Drain Fatigue",
+       "effect2":"Drain Health",
+       "effect3":"Drain Magicka",
+       "effect4":"",
+       "image":"Ingredient_Corpusmeat_03"
+    },
+    {
+       "name":"Meteor Slime",
+       "effect1":"Fortify Willpower",
+       "effect2":"Cure Poison",
+       "effect3":"Cure Blight Disease",
+       "effect4":"Restore Willpower",
+       "image":"Ingredient_Scrib_Jelly"
+    },
+    {
+       "name":"Moon Sugar",
+       "effect1":"Fortify Speed",
+       "effect2":"Dispel",
+       "effect3":"Drain Endurance",
+       "effect4":"Drain Luck",
+       "image":"Ingredient_Moon_Sugar"
+    },
+    {
+       "name":"Muck",
+       "effect1":"Drain Intelligence",
+       "effect2":"Detect Key",
+       "effect3":"Drain Personality",
+       "effect4":"Cure Common Disease",
+       "image":"Ingredient_Muck"
+    },
+    {
+       "name":"Muffin",
+       "effect1":"Restore Fatigue",
+       "effect2":"",
+       "effect3":"",
+       "effect4":"",
+       "image":"Ingredient_Bread"
+    },
+    {
+       "name":"Netch Leather",
+       "effect1":"Fortify Endurance",
+       "effect2":"Fortify Intelligence",
+       "effect3":"Drain Personality",
+       "effect4":"Cure Paralyzation",
+       "image":"Ingredient_Netch_Leather"
+    },
+    {
+       "name":"Nirthfly Stalks (T)",
+       "effect1":"Damage Health",
+       "effect2":"Fortify Speed",
+       "effect3":"Restore Speed",
+       "effect4":"Drain Speed",
+       "image":"Ingredient_Nirthfly_Stalks"
+    },
+    {
+       "name":"Noble Sedge Flowers (T)",
+       "effect1":"Damage Health",
+       "effect2":"Restore Agility",
+       "effect3":"Poison",
+       "effect4":"Fortify Agility",
+       "image":"Ingredient_Noble_Sedge"
+    },
+    {
+       "name":"Pearl",
+       "effect1":"Drain Agility",
+       "effect2":"Dispel",
+       "effect3":"Water Breathing",
+       "effect4":"Resist Common Disease",
+       "image":"Ingredient_Pearl"
+    },
+    {
+       "name":"Pinetear (B)",
+       "effect1":"Fortify Magicka",
+       "effect2":"Restore Health",
+       "effect3":"Drain Agility",
+       "effect4":"Drain Endurance",
+       "image":"Ingredient_Emerald"
+    },
+    {
+       "name":"Poison",
+       "effect1":"Weakness to Poison",
+       "effect2":"Damage Health",
+       "effect3":"Damage Fatigue",
+       "effect4":"Poison",
+       "image":"Ingredient_Corprus_Weepings"
+    },
+    {
+       "name":"Racer Plumes",
+       "effect1":"Drain Willpower",
+       "effect2":"Levitate",
+       "effect3":"",
+       "effect4":"",
+       "image":"Ingredient_Racer_Plumes"
+    },
+    {
+       "name":"Rat Meat",
+       "effect1":"Drain Magicka",
+       "effect2":"Paralyze",
+       "effect3":"Cure Poison",
+       "effect4":"Resist Poison",
+       "image":"Ingredient_Rat_Meat"
+    },
+    {
+       "name":"Raw Ebony",
+       "effect1":"Drain Agility",
+       "effect2":"Cure Poison",
+       "effect3":"Frost Shield",
+       "effect4":"Restore Speed",
+       "image":"Ingredient_Raw_Ebony"
+    },
+    {
+       "name":"Raw Glass",
+       "effect1":"Drain Intelligence",
+       "effect2":"Drain Strength",
+       "effect3":"Drain Speed",
+       "effect4":"Fire Shield",
+       "image":"Ingredient_Raw_Glass"
+    },
+    {
+       "name":"Raw Stahlrim (B)",
+       "effect1":"Resist Frost",
+       "effect2":"Frost Damage",
+       "effect3":"Paralyze",
+       "effect4":"Restore Health",
+       "image":"Ingredient_Raw_Stalhrim"
+    },
+    {
+       "name":"Red Lichen",
+       "effect1":"Drain Speed",
+       "effect2":"Light",
+       "effect3":"Cure Common Disease",
+       "effect4":"Drain Magicka",
+       "image":"Ingredient_Red_Lichen"
+    },
+    {
+       "name":"Resin",
+       "effect1":"Restore Health",
+       "effect2":"Restore Speed",
+       "effect3":"Burden",
+       "effect4":"Resist Common Disease",
+       "image":"Ingredient_Resin"
+    },
+    {
+       "name":"Ripened Belladonna Berries (B)",
+       "effect1":"Resist Magicka",
+       "effect2":"Restore Magicka",
+       "effect3":"Fortify Magicka",
+       "effect4":"Drain Magicka",
+       "image":"Ingredient_Belladonna_Berries"
+    },
+    {
+       "name":"Roobrush",
+       "effect1":"Drain Willpower",
+       "effect2":"Fortify Agility",
+       "effect3":"Drain Health",
+       "effect4":"Cure Poison",
+       "image":"Ingredient_Roobrush"
+    },
+    {
+       "name":"Ruby",
+       "effect1":"Drain Health",
+       "effect2":"Feather",
+       "effect3":"Restore Intelligence",
+       "effect4":"Drain Agility",
+       "image":"Ingredient_Ruby"
+    },
+    {
+       "name":"Saltrice",
+       "effect1":"Restore Fatigue",
+       "effect2":"Fortify Magicka",
+       "effect3":"Drain Strength",
+       "effect4":"Restore Health",
+       "image":"Ingredient_Saltrice"
+    },
+    {
+       "name":"Scales",
+       "effect1":"Drain Personality",
+       "effect2":"Water Walking",
+       "effect3":"Restore Endurance",
+       "effect4":"Swift Swim",
+       "image":"Ingredient_Scales"
+    },
+    {
+       "name":"Scamp Skin",
+       "effect1":"Drain Magicka",
+       "effect2":"Cure Paralyzation",
+       "effect3":"Restore Personality",
+       "effect4":"Restore Strength",
+       "image":"Ingredient_Scamp_Skin"
+    },
+    {
+       "name":"Scathecraw",
+       "effect1":"Drain Strength",
+       "effect2":"Cure Poison",
+       "effect3":"Drain Health",
+       "effect4":"Restore Willpower",
+       "image":"Ingredient_Scathecraw"
+    },
+    {
+       "name":"Scrap Metal",
+       "effect1":"Drain Health",
+       "effect2":"Lightning Shield",
+       "effect3":"Resist Shock",
+       "effect4":"Restore Intelligence",
+       "image":"Ingredient_Scrap_Metal"
+    },
+    {
+       "name":"Scrib Cabbage (T)",
+       "effect1":"Drain Intelligence",
+       "effect2":"Damage Health",
+       "effect3":"Restore Agility",
+       "effect4":"Fortify Agility",
+       "image":"Ingredient_Scrib_Cabbage"
+    },
+    {
+       "name":"Scrib Jelly",
+       "effect1":"Fortify Willpower",
+       "effect2":"Cure Poison",
+       "effect3":"Cure Blight Disease",
+       "effect4":"Restore Willpower",
+       "image":"Ingredient_Scrib_Jelly"
+    },
+    {
+       "name":"Scrib Jerky",
+       "effect1":"Restore Fatigue",
+       "effect2":"Fortify Fatigue",
+       "effect3":"Burden",
+       "effect4":"Swift Swim",
+       "image":"Ingredient_Scrib_Jerky"
+    },
+    {
+       "name":"Scuttle",
+       "effect1":"Restore Fatigue",
+       "effect2":"Fortify Fatigue",
+       "effect3":"Feather",
+       "effect4":"Telekinesis",
+       "image":"Ingredient_Scuttle"
+    },
+    {
+       "name":"Shalk Resin",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Health",
+       "effect3":"Drain Personality",
+       "effect4":"Fortify Speed",
+       "image":"Ingredient_Shalk_Resin"
+    },
+    {
+       "name":"Sload Soap",
+       "effect1":"Drain Personality",
+       "effect2":"Fortify Agility",
+       "effect3":"Fire Shield",
+       "effect4":"Restore Agility",
+       "image":"Ingredient_Sload_Soap"
+    },
+    {
+       "name":"Small Corprusmeat Hunk",
+       "effect1":"Drain Fatigue",
+       "effect2":"Drain Magicka",
+       "effect3":"",
+       "effect4":"",
+       "image":"Ingredient_Corpusmeat_07"
+    },
+    {
+       "name":"Small Kwama Egg",
+       "effect1":"Restore Fatigue",
+       "effect2":"",
+       "effect3":"",
+       "effect4":"",
+       "image":"Ingredient_Kwama_Egg"
+    },
+    {
+       "name":"Small Wrapped Corprusmeat",
+       "effect1":"Drain Fatigue",
+       "effect2":"Drain Health",
+       "effect3":"Drain Magicka",
+       "effect4":"",
+       "image":"Ingredient_Corpusmeat_02"
+    },
+    {
+       "name":"Snow Bear Pelt (B)",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Speed",
+       "effect3":"Resist Common Disease",
+       "effect4":"Night Eye",
+       "image":"Ingredient_Snow_Bear_Pelt"
+    },
+    {
+       "name":"Snow Wolf Pelt (B)",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Speed",
+       "effect3":"Resist Common Disease",
+       "effect4":"Night Eye",
+       "image":"Ingredient_Snow_Wolf_Pelt"
+    },
+    {
+       "name":"Spore Pod",
+       "effect1":"Drain Strength",
+       "effect2":"Drain Fatigue",
+       "effect3":"Detect Key",
+       "effect4":"Paralyze",
+       "image":"Ingredient_Spore_Pod"
+    },
+    {
+       "name":"Stoneflower Petals",
+       "effect1":"Restore Strength",
+       "effect2":"Fortify Magicka",
+       "effect3":"Drain Luck",
+       "effect4":"Fortify Personality",
+       "image":"Ingredient_Stoneflower_Petals"
+    },
+    {
+       "name":"Sweetpulp (T)",
+       "effect1":"Paralyze",
+       "effect2":"Levitate",
+       "effect3":"Resist Paralysis",
+       "effect4":"Restore Health",
+       "image":"Ingredient_Sweetpulp"
+    },
+    {
+       "name":"Timsa-Come-By flowers (T)",
+       "effect1":"Dispel",
+       "effect2":"Resist Paralysis",
+       "effect3":"Drain Magicka",
+       "effect4":"Restore Endurance",
+       "image":"Ingredient_Timsa-Come-By_Flowers"
+    },
+    {
+       "name":"Trama Root",
+       "effect1":"Restore Willpower",
+       "effect2":"Levitate",
+       "effect3":"Drain Magicka",
+       "effect4":"Drain Speed",
+       "image":"Ingredient_Trama_Root"
+    },
+    {
+       "name":"Treated Bittergreen Petals",
+       "effect1":"Restore Intelligence",
+       "effect2":"Drain Magicka",
+       "effect3":"Drain Endurance",
+       "effect4":"Invisibility",
+       "image":"Ingredient_Bittergreen_Petal"
+    },
+    {
+       "name":"Unripened Belladonna Berries (B)",
+       "effect1":"Resist Magicka",
+       "effect2":"Restore Magicka",
+       "effect3":"Fortify Magicka",
+       "effect4":"Drain Magicka",
+       "image":"Ingredient_Belladonna_Berries"
+    },
+    {
+       "name":"Vampire Dust",
+       "effect1":"Fortify Health",
+       "effect2":"Fortify Strength",
+       "effect3":"Spell Absorption",
+       "effect4":"Vampirism",
+       "image":"Ingredient_Vampire_Dust"
+    },
+    {
+       "name":"Violet Corprinus",
+       "effect1":"Water Walking",
+       "effect2":"Drain Fatigue",
+       "effect3":"Poison",
+       "effect4":"",
+       "image":"Ingredient_Violet_Coprinus"
+    },
+    {
+       "name":"Void Salts",
+       "effect1":"Restore Magicka",
+       "effect2":"Spell Absorption",
+       "effect3":"Paralyze",
+       "effect4":"Drain Endurance",
+       "image":"Ingredient_Void_Salts"
+    },
+    {
+       "name":"Wickwheat",
+       "effect1":"Restore Health",
+       "effect2":"Fortify Willpower",
+       "effect3":"Paralyze",
+       "effect4":"Damage Intelligence",
+       "image":"Ingredient_Wickwheat"
+    },
+    {
+       "name":"Willow Anther",
+       "effect1":"Drain Personality",
+       "effect2":"Frost Shield",
+       "effect3":"Cure Common Disease",
+       "effect4":"Cure Paralyzation",
+       "image":"Ingredient_Willow_Anther"
+    },
+    {
+       "name":"Wolf Pelt (B)",
+       "effect1":"Drain Fatigue",
+       "effect2":"Fortify Speed",
+       "effect3":"Resist Common Disease",
+       "effect4":"Night Eye",
+       "image":"Ingredient_Wolf_Pelt"
+    },
+    {
+       "name":"Wolfsbane Petals (B)",
+       "effect1":"Restore Intelligence",
+       "effect2":"Invisibility",
+       "effect3":"Drain Endurance",
+       "effect4":"Drain Magicka",
+       "image":"Ingredient_Wolfsbane_Petals"
+    }
+ ],
+  "effects": [
+    {
+       "name":"Blind",
+       "image":"Effect_Blind"
+    },
+    {
+       "name":"Burden",
+       "image":"Effect_Burden"
+    },
+    {
+       "name":"Cure Blight Disease",
+       "image":"Effect_Cure_Blight_Disease"
+    },
+    {
+       "name":"Cure Common Disease",
+       "image":"Effect_Cure_Common_Disease"
+    },
+    {
+       "name":"Cure Paralyzation",
+       "image":"Effect_Cure_Paralyzation"
+    },
+    {
+       "name":"Cure Poison",
+       "image":"Effect_Cure_Poison"
+    },
+    {
+       "name":"Damage Fatigue",
+       "image":"Effect_Damage_Fatigue"
+    },
+    {
+       "name":"Damage Health",
+       "image":"Effect_Damage_Health"
+    },
+    {
+       "name":"Damage Intelligence",
+       "image":"Effect_Damage_Attribute"
+    },
+    {
+       "name":"Damage Magicka",
+       "image":"Effect_Damage_Magicka"
+    },
+    {
+       "name":"Detect Animal",
+       "image":"Effect_Detect_Animal"
+    },
+    {
+       "name":"Detect Enchantment",
+       "image":"Effect_Detect_Enchantment"
+    },
+    {
+       "name":"Detect Key",
+       "image":"Effect_Detect_Key"
+    },
+    {
+       "name":"Dispel",
+       "image":"Effect_Dispel"
+    },
+    {
+       "name":"Drain Alteration",
+       "image":"Effect_Drain_Skill"
+    },
+    {
+       "name":"Drain Agility",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Drain Endurance",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Drain Fatigue",
+       "image":"Effect_Drain_Fatigue"
+    },
+    {
+       "name":"Drain Health",
+       "image":"Effect_Drain_Health"
+    },
+    {
+       "name":"Drain Intelligence",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Drain Luck",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Drain Magicka",
+       "image":"Effect_Drain_Magicka"
+    },
+    {
+       "name":"Drain Personality",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Drain Speed",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Drain Strength",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Drain Willpower",
+       "image":"Effect_Drain_Attribute"
+    },
+    {
+       "name":"Feather",
+       "image":"Effect_Feather"
+    },
+    {
+       "name":"Fire Shield",
+       "image":"Effect_Fire_Shield"
+    },
+    {
+       "name":"Fortify Agility",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Fortify Attack",
+       "image":"Effect_Fortify_Attack"
+    },
+    {
+       "name":"Fortify Endurance",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Fortify Fatigue",
+       "image":"Effect_Fortify_Fatigue"
+    },
+    {
+       "name":"Fortify Health",
+       "image":"Effect_Fortify_Health"
+    },
+    {
+       "name":"Fortify Intelligence",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Fortify Luck",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Fortify Magicka",
+       "image":"Effect_Fortify_Magicka"
+    },
+    {
+       "name":"Fortify Maximum Magicka",
+       "image":"Effect_Fortify_Maximum_Magicka"
+    },
+    {
+       "name":"Fortify Personality",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Fortify Speed",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Fortify Strength",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Fortify Willpower",
+       "image":"Effect_Fortify_Attribute"
+    },
+    {
+       "name":"Frost Damage",
+       "image":"Effect_Frost_Damage"
+    },
+    {
+       "name":"Frost Shield",
+       "image":"Effect_Frost_Shield"
+    },
+    {
+       "name":"Invisibility",
+       "image":"Effect_Invisibility"
+    },
+    {
+       "name":"Levitate",
+       "image":"Effect_Levitate"
+    },
+    {
+       "name":"Light",
+       "image":"Effect_Light"
+    },
+    {
+       "name":"Lightning Shield",
+       "image":"Effect_Lightning_Shield"
+    },
+    {
+       "name":"Night Eye",
+       "image":"Effect_Night_Eye"
+    },
+    {
+       "name":"Paralyze",
+       "image":"Effect_Paralyze"
+    },
+    {
+       "name":"Poison",
+       "image":"Effect_Poison"
+    },
+    {
+       "name":"Recall",
+       "image":"Effect_Recall"
+    },
+    {
+       "name":"Reflect",
+       "image":"Effect_Reflect"
+    },
+    {
+       "name":"Resist Common Disease",
+       "image":"Effect_Resist_Common_Disease"
+    },
+    {
+       "name":"Resist Fire",
+       "image":"Effect_Resist_Fire"
+    },
+    {
+       "name":"Resist Frost",
+       "image":"Effect_Resist_Frost"
+    },
+    {
+       "name":"Resist Magicka",
+       "image":"Effect_Resist_Magicka"
+    },
+    {
+       "name":"Resist Paralysis",
+       "image":"Effect_Resist_Paralysis"
+    },
+    {
+       "name":"Resist Poison",
+       "image":"Effect_Resist_Poison"
+    },
+    {
+       "name":"Resist Shock",
+       "image":"Effect_Resist_Shock"
+    },
+    {
+       "name":"Restore Agility",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Restore Endurance",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Restore Fatigue",
+       "image":"Effect_Restore_Fatigue"
+    },
+    {
+       "name":"Restore Health",
+       "image":"Effect_Restore_Health"
+    },
+    {
+       "name":"Restore Intelligence",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Restore Luck",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Restore Magicka",
+       "image":"Effect_Restore_Magicka"
+    },
+    {
+       "name":"Restore Personality",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Restore Speed",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Restore Strength",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Restore Willpower",
+       "image":"Effect_Restore_Attribute"
+    },
+    {
+       "name":"Spell Absorption",
+       "image":"Effect_Spell_Absorption"
+    },
+    {
+       "name":"Swift Swim",
+       "image":"Effect_Swift_Swim"
+    },
+    {
+       "name":"Telekinesis",
+       "image":"Effect_Telekinesis"
+    },
+    {
+       "name":"Vampirism",
+       "image":"Effect_Vampirism"
+    },
+    {
+       "name":"Water Breathing",
+       "image":"Effect_Water_Breathing"
+    },
+    {
+       "name":"Water Walking",
+       "image":"Effect_Water_Walking"
+    },
+    {
+       "name":"Weakness to Fire",
+       "image":"Effect_Weakness_to_Fire"
+    },
+    {
+       "name":"Weakness to Poison",
+       "image":"Effect_Weakness_to_Poison"
+    }
+ ]
+}

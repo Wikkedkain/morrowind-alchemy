@@ -1,0 +1,112 @@
+Ingredient Name	Weight	Value	1st Effect	2nd Effect	3rd Effect	4th Effect	Image
+Adamantium Ore (T)	50	300	Burden	Restore Magicka	Poison	Reflect 	Ingredient_Adamantium_Ore
+Alit Hide	1	5	Drain Intelligence	Resist Poison	Telekinesis	Detect Animal	Ingredient_Alit_Hide
+Ampoule Pod	0.1	2	Water Walking	Paralyze	Detect Animal	Drain Willpower	Ingredient_Ampoule_Pod
+Ash Salts	0.1	25	Drain Agility	Resist Magicka	Cure Blight Disease		Ingredient_Ash_Salts
+Ash Yam	0.5	1	Fortify Intelligence	Fortify Strength	Resist Common Disease	Detect Key	Ingredient_Ash_Yam
+Bear Pelt (B)	1	2	Drain Fatigue	Fortify Strength	Resist Common Disease	Night Eye	Ingredient_Bear_Pelt
+Bittergreen Petals	0.1	5	Restore Intelligence	Invisibility	Drain Endurance	Drain Magicka	Ingredient_Bittergreen_Petal
+Black Anther	0.1	2	Drain Agility	Resist Fire	Drain Endurance	Light	Ingredient_Black_Anther
+Black Lichen	0.1	2	Drain Strength	Resist Frost	Drain Speed	Cure Poison	Ingredient_Black_Lichen
+Bloat	0.1	5	Drain Magicka	Fortify Intelligence	Fortify Willpower	Detect Animal	Ingredient_Bloat
+Bonemeal	0.2	2	Restore Agility	Telekinesis	Drain Fatigue	Drain Personality	Ingredient_Bonemeal
+Bread	0.2	2	Restore Fatigue				Ingredient_Bread
+Bristleback Leather (B)	1	2	Blind	Frost Damage	Resist Frost	Recall	Ingredient_Bristleback_Leather
+Bungler's Bane	0.5	1	Drain Speed	Drain Endurance	Dispel	Drain Strength	Ingredient_Bunglers_Bane
+Chokeweed	0.1	1	Drain Luck	Restore Fatigue	Cure Common Disease	Drain Willpower	Ingredient_Chokeweed
+Coda Flower	0.1	23	Drain Personality	Levitate	Drain Intelligence	Drain Health	Ingredient_Coda_Flower
+Comberry	0.1	2	Drain Fatigue	Restore Magicka	Fire Shield	Reflect	Ingredient_Comberry
+Corkbulb Root	0.1	5	Cure Paralyzation	Restore Health	Lightning Shield	Fortify Luck	Ingredient_Corkbulb_Root
+Corpus Weepings	0.1	50	Drain Fatigue	Fortify Luck	Drain Willpower	Restore Health	Ingredient_Corprus_Weepings
+Crab Meat	0.5	1	Restore Fatigue	Resist Shock	Lightning Shield	Restore Luck	Ingredient_Crab_Meat
+Daedra Skin	0.2	200	Fortify Strength	Cure Common Disease	Paralyze	Swift Swim	Ingredient_Daedra_Skin
+Daedra's Heart	0.2	200	Restore Magicka	Fortify Endurance	Drain Agility	Night Eye	Ingredient_Daedras_Heart
+Diamond	0.2	250	Drain Agility	Invisibility	Reflect	Detect Key	Ingredient_Diamond
+Dreugh Wax	0.2	100	Fortify Strength	Restore Strength	Drain Luck	Drain Willpower	Ingredient_Dreugh_Wax
+Durzog Meat (T)	2	7	Fortify Agility	Fortify Strength	Blind	Damage Magicka	Ingredient_Durzog_Meat
+Ectoplasm	0.1	10	Fortify Agility	Detect Animal	Drain Strength	Drain Health	Ingredient_Ectoplasm
+Emerald	0.2	150	Fortify Magicka	Restore Health	Drain Agility	Drain Endurance	Ingredient_Emerald
+Fire Petal	0.1	2	Resist Fire	Drain Health	Spell Absorption	Paralyze	Ingredient_Fire_Petal
+Fire Salts	0.1	100	Drain Health	Fortify Agility	Resist Frost	Fire Shield	Ingredient_Fire_Salts
+Flaming Eye of the Lightkeeper (B)	1	15	Resist Frost	Night Eye	Drain Magicka	Fortify Strength	Ingredient_Grahl_Eyeball
+Frost Salts	0.1	75	Drain Speed	Restore Magicka	Frost Shield	Resist Fire	Ingredient_Frost_Salts
+Ghoul Heart	0.5	150	Paralyze	Cure Poison	Fortify Attack		Ingredient_Ghoul_Heart
+Gold Kanet	0.1	5	Drain Health	Burden	Drain Luck	Restore Strength	Ingredient_Gold_Kanet
+Golden Sedge Flowers (T)	1	1	Drain Magicka	Fortify Strength	Fortify Attack	Swift Swim	Ingredient_Golden_Sedge
+Grahl Eyeball (B)	1	15	Resist Frost	Night Eye	Drain Magicka	Fortify Magicka	Ingredient_Grahl_Eyeball
+Gravedust	0.1	1	Drain Intelligence	Cure Common Disease	Drain Magicka	Restore Endurance	Ingredient_Gravedust
+Gravetar (B)	0.1	5	Resist Frost	Drain Health	Fortify Fatigue	Drain Luck	Ingredient_Gravetar
+Green Lichen	0.1	1	Fortify Personality	Cure Common Disease	Drain Strength	Drain Health	Ingredient_Green_Lichen
+Guar Hide	1	5	Drain Fatigue	Fortify Endurance	Restore Personality	Fortify Luck	Ingredient_Guar_Hide
+Hackle-Lo Leaf	0.1	30	Restore Fatigue	Paralyze	Water Breathing	Restore Luck	Ingredient_Hackle-Lo_Leaf
+Heart of the Udyrfrykte (B)	5	300	Restore Magicka	Fortify Endurance	Drain Agility	Night Eye	Ingredient_Daedras_Heart
+Heartwood (B)	1	200	Restore Magicka	Fortify Agility	Drain Strength	Weakness to Fire	Ingredient_Heartwood
+Heather	0.1	1	Restore Personality	Feather	Drain Speed	Drain Personality	Ingredient_Heather
+Holly Berries (B)	0.1	5	Resist Frost	Frost Shield	Frost Damage	Weakness to Fire	Ingredient_Holly_Berries
+Horker Tusk (B)	0.1	5	Drain Alteration	Fortify Intelligence	Fortify Maximum Magicka	Detect Animal	Ingredient_Horker_Tusk
+Horn Lily Bulb (T)	1	1	Resist Paralysis	Drain Health	Restore Strength	Restore Endurance	Ingredient_Horn_Lily_Bulb
+Hound Meat	1	2	Restore Fatigue	Fortify Fatigue	Reflect	Detect Enchantment	Ingredient_Hound_Meat
+Human flesh	1	1	Fortify Health	Drain Intelligence	Drain Personality		Ingredient_Rat_Meat
+Hypha Facia	0.1	1	Drain Luck	Drain Agility	Drain Fatigue	Detect Enchantment	Ingredient_Hypha_Facia
+Kagouti Hide	1	2	Drain Fatigue	Fortify Speed	Resist Common Disease	Night Eye	Ingredient_Kagouti_Hide
+Kresh Fiber	0.1	1	Restore Luck	Fortify Personality	Drain Magicka	Drain Speed	Ingredient_Kresh_Fiber
+Kwama Cuttle	0.1	2	Resist Poison	Drain Fatigue	Water Walking	Water Breathing	Ingredient_Kwama_Cuttle
+Large Corprusmeat Hunk	1	2	Drain Fatigue	Drain Health	Drain Magicka		Ingredient_Corpusmeat_05
+Large Kwama Egg	2	2	Restore Fatigue	Paralyze	Frost Shield	Fortify Health	Ingredient_Kwama_Egg
+Large Wrapped Corprusmeat	1	0	Drain Fatigue	Drain Health	Drain Magicka		Ingredient_Corpusmeat_01
+Lloramor Spines (T)	1	1	Spell Absorption	Invisibility	Poison	Detect Enchantment	Ingredient_Lloramor_Spines
+Luminous Russula	0.2	1	Water Breathing	Drain Fatigue	Poison		Ingredient_Luminous_Russula
+Marshmerrow	0.1	1	Restore Health	Detect Enchantment	Drain Willpower	Drain Fatigue	Ingredient_Marshmerrow
+Meadow Rye (T)	1	1	Fortify Speed	Damage Health	Restore Speed	Drain Speed	Ingredient_Meadow_Rye
+Medium Corprusmeat Hunk	0.5	0	Drain Fatigue	Drain Health	Drain Magicka		Ingredient_Corpusmeat_06
+Medium Wrapped Corprusmeat	0.5	0	Drain Fatigue	Drain Health	Drain Magicka		Ingredient_Corpusmeat_03
+Meteor Slime	0.1	10	Fortify Willpower	Cure Poison	Cure Blight Disease	Restore Willpower	Ingredient_Scrib_Jelly
+Moon Sugar	0.1	50	Fortify Speed	Dispel	Drain Endurance	Drain Luck	Ingredient_Moon_Sugar
+Muck	0.1	1	Drain Intelligence	Detect Key	Drain Personality	Cure Common Disease	Ingredient_Muck
+Muffin	0.2	1	Restore Fatigue				Ingredient_Bread
+Netch Leather	1	1	Fortify Endurance	Fortify Intelligence	Drain Personality	Cure Paralyzation	Ingredient_Netch_Leather
+Nirthfly Stalks (T)	1	1	Damage Health	Fortify Speed	Restore Speed	Drain Speed	Ingredient_Nirthfly_Stalks
+Noble Sedge Flowers (T)	1	1	Damage Health	Restore Agility	Poison	Fortify Agility	Ingredient_Noble_Sedge
+Pearl	0.2	100	Drain Agility	Dispel	Water Breathing	Resist Common Disease	Ingredient_Pearl
+Pinetear (B)	0.2	50	Fortify Magicka	Restore Health	Drain Agility	Drain Endurance	Ingredient_Emerald
+Poison	0.1	0	Weakness to Poison	Damage Health	Damage Fatigue	Poison	Ingredient_Corprus_Weepings
+Racer Plumes	0.1	20	Drain Willpower	Levitate			Ingredient_Racer_Plumes
+Rat Meat	1	1	Drain Magicka	Paralyze	Cure Poison	Resist Poison	Ingredient_Rat_Meat
+Raw Ebony	10	200	Drain Agility	Cure Poison	Frost Shield	Restore Speed	Ingredient_Raw_Ebony
+Raw Glass	2	200	Drain Intelligence	Drain Strength	Drain Speed	Fire Shield	Ingredient_Raw_Glass
+Raw Stahlrim (B)	5	300	Resist Frost	Frost Damage	Paralyze	Restore Health	Ingredient_Raw_Stalhrim
+Red Lichen	0.1	25	Drain Speed	Light	Cure Common Disease	Drain Magicka	Ingredient_Red_Lichen
+Resin	0.1	10	Restore Health	Restore Speed	Burden	Resist Common Disease	Ingredient_Resin
+Ripened Belladonna Berries (B)	0.1	5	Resist Magicka	Restore Magicka	Fortify Magicka	Drain Magicka	Ingredient_Belladonna_Berries
+Roobrush	0.1	1	Drain Willpower	Fortify Agility	Drain Health	Cure Poison	Ingredient_Roobrush
+Ruby	0.2	200	Drain Health	Feather	Restore Intelligence	Drain Agility	Ingredient_Ruby
+Saltrice	0.1	1	Restore Fatigue	Fortify Magicka	Drain Strength	Restore Health	Ingredient_Saltrice
+Scales	0	0	Drain Personality	Water Walking	Restore Endurance	Swift Swim	Ingredient_Scales
+Scamp Skin	0.1	10	Drain Magicka	Cure Paralyzation	Restore Personality	Restore Strength	Ingredient_Scamp_Skin
+Scathecraw	0	0	Drain Strength	Cure Poison	Drain Health	Restore Willpower	Ingredient_Scathecraw
+Scrap Metal	10	20	Drain Health	Lightning Shield	Resist Shock	Restore Intelligence	Ingredient_Scrap_Metal
+Scrib Cabbage (T)	1	1	Drain Intelligence	Damage Health	Restore Agility	Fortify Agility	Ingredient_Scrib_Cabbage
+Scrib Jelly	0	0	Fortify Willpower	Cure Poison	Cure Blight Disease	Restore Willpower	Ingredient_Scrib_Jelly
+Scrib Jerky	0.2	5	Restore Fatigue	Fortify Fatigue	Burden	Swift Swim	Ingredient_Scrib_Jerky
+Scuttle	0.1	10	Restore Fatigue	Fortify Fatigue	Feather	Telekinesis	Ingredient_Scuttle
+Shalk Resin	0.1	50	Drain Fatigue	Fortify Health	Drain Personality	Fortify Speed	Ingredient_Shalk_Resin
+Sload Soap	0.1	50	Drain Personality	Fortify Agility	Fire Shield	Restore Agility	Ingredient_Sload_Soap
+Small Corprusmeat Hunk	0.2	0	Drain Fatigue	Drain Magicka			Ingredient_Corpusmeat_07
+Small Kwama Egg	0.5	1	Restore Fatigue				Ingredient_Kwama_Egg
+Small Wrapped Corprusmeat	0.2	0	Drain Fatigue	Drain Health	Drain Magicka		Ingredient_Corpusmeat_02
+Snow Bear Pelt (B)	1	2	Drain Fatigue	Fortify Speed	Resist Common Disease	Night Eye	Ingredient_Snow_Bear_Pelt
+Snow Wolf Pelt (B)	1	2	Drain Fatigue	Fortify Speed	Resist Common Disease	Night Eye	Ingredient_Snow_Wolf_Pelt
+Spore Pod	0.1	1	Drain Strength	Drain Fatigue	Detect Key	Paralyze	Ingredient_Spore_Pod
+Stoneflower Petals	0.1	1	Restore Strength	Fortify Magicka	Drain Luck	Fortify Personality	Ingredient_Stoneflower_Petals
+Sweetpulp (T)	1	1	Paralyze	Levitate	Resist Paralysis	Restore Health	Ingredient_Sweetpulp
+Timsa-Come-By flowers (T)	1	1	Dispel	Resist Paralysis	Drain Magicka	Restore Endurance	Ingredient_Timsa-Come-By_Flowers
+Trama Root	0.1	10	Restore Willpower	Levitate	Drain Magicka	Drain Speed	Ingredient_Trama_Root
+Treated Bittergreen Petals	0.1	10	Restore Intelligence	Drain Magicka	Drain Endurance	Invisibility	Ingredient_Bittergreen_Petal
+Unripened Belladonna Berries (B)	0.1	5	Resist Magicka	Restore Magicka	Fortify Magicka	Drain Magicka	Ingredient_Belladonna_Berries
+Vampire Dust	0.1	200	Fortify Health	Fortify Strength	Spell Absorption	Vampirism	Ingredient_Vampire_Dust
+Violet Corprinus	0.5	1	Water Walking	Drain Fatigue	Poison		Ingredient_Violet_Coprinus
+Void Salts	0.1	100	Restore Magicka	Spell Absorption	Paralyze	Drain Endurance	Ingredient_Void_Salts
+Wickwheat	0.1	1	Restore Health	Fortify Willpower	Paralyze	Damage Intelligence	Ingredient_Wickwheat
+Willow Anther	0.1	10	Drain Personality	Frost Shield	Cure Common Disease	Cure Paralyzation	Ingredient_Willow_Anther
+Wolf Pelt (B)	1	2	Drain Fatigue	Fortify Speed	Resist Common Disease	Night Eye	Ingredient_Wolf_Pelt
+Wolfsbane Petals (B)	0.1	5	Restore Intelligence	Invisibility	Drain Endurance	Drain Magicka	Ingredient_Wolfsbane_Petals

@@ -1,0 +1,314 @@
+---
+import data from '../data/data.json';
+
+function getEffectImage(name) {
+  let effects = data.effects.filter((e) => e.name === name);
+  if (effects.length === 0) return '';
+  return effects[0].image;
+}
+
+function getEffectImg(name, index) {
+  if (name == null || name === '') return '';
+  return `<img class="effect ${getEffectImage(name)}" src="/images/img_transparent.gif" alt=${name} title=${name} loading=${index > 12 ? 'lazy' : 'eager'} />`;
+}
+---
+
+<div class="flow">
+  <div>
+    <h5>Search</h5>
+    <input
+      id="input-ingredients"
+      class="search-input"
+      list="list-ingredients"
+      type="text"
+      aria-expanded="false"~
+      aria-controls="table-alchemy"
+      required
+    />
+    <button id="btn-clear" class="clear-search">&times;</button>
+    <datalist id="list-ingredients">
+      {
+        data.ingredients.map((ingredient) => (
+          <option value={ingredient.name}>{ingredient.name}</option>
+        ))
+      }
+    </datalist>
+  </div>
+  <div class="potion-container">
+    <div class="flow flex-1">
+      <b>Potion Ingredients</b>
+      <hr />
+      <div class="grid">
+        <div id="ingredient1" data-index="0" class="grid-item"></div>
+        <div id="ingredient2" data-index="1" class="grid-item"></div>
+        <div id="ingredient3" data-index="2" class="grid-item"></div>
+        <div id="ingredient4" data-index="3" class="grid-item"></div>
+      </div>
+    </div>
+    <div class="flow flex-1">
+      <b>Potion Effects</b>
+      <hr />
+      <ol id="potion-effects" class="potion-effects"></ol>
+    </div>
+  </div>
+  <table id="table-alchemy">
+    <tr>
+      <th>Name</th>
+      <th>Effect 1</th>
+      <th>Effect 2</th>
+      <th>Effect 3</th>
+      <th>Effect 4</th>
+    </tr>
+    {
+      data.ingredients.map((ingredient, index) => (
+        <tr>
+          <td class="">
+            <img
+              class={`ingredient ${ingredient.image}`}
+              src="/images/img_transparent.gif"
+              alt={ingredient.name}
+              title={ingredient.name}
+              loading={index > 12 ? 'lazy' : 'eager'}
+            />
+            <button class="link" data-ingredient={ingredient.name}>
+              {ingredient.name}
+            </button>
+          </td>
+          <td>
+            <Fragment set:html={getEffectImg(ingredient.effect1, index)} />{' '}
+            <button class="link" data-effect={ingredient.effect1}>
+              {ingredient.effect1}
+            </button>
+          </td>
+          <td>
+            <Fragment set:html={getEffectImg(ingredient.effect2, index)} />{' '}
+            <button class="link" data-effect={ingredient.effect2}>
+              {ingredient.effect2}
+            </button>
+          </td>
+          <td>
+            <Fragment set:html={getEffectImg(ingredient.effect3, index)} />{' '}
+            <button class="link" data-effect={ingredient.effect3}>
+              {ingredient.effect3}
+            </button>
+          </td>
+          <td>
+            <Fragment set:html={getEffectImg(ingredient.effect4, index)} />{' '}
+            <button class="link" data-effect={ingredient.effect4}>
+              {ingredient.effect4}
+            </button>
+          </td>
+        </tr>
+      ))
+    }
+  </table>
+</div>
+
+<script define:vars={{ data }}>
+  const inputIngredients = document.querySelector('#input-ingredients');
+  const btnClear = document.querySelector('#btn-clear');
+  inputIngredients.addEventListener('input', (e) => {
+    filterRows(e.target.value);
+  });
+  btnClear.addEventListener('click', () => {
+    inputIngredients.value = '';
+    filterRows();
+  });
+
+  const ingredientLinks = document.querySelectorAll('button[data-ingredient]');
+  Array.from(ingredientLinks).forEach((a) => {
+    a.addEventListener('click', (e) => {
+      addIngredientToPotion(e.target.dataset['ingredient']);
+    });
+  });
+
+  const effectLinks = document.querySelectorAll('button[data-effect]');
+  Array.from(effectLinks).forEach((a) => {
+    a.addEventListener('click', (e) => {
+      inputIngredients.value = e.target.dataset['effect'];
+      filterRows(e.target.dataset['effect']);
+    });
+  });
+
+  const rows = document.querySelectorAll('table tr');
+
+  function filterRows(name) {
+    Array.from(rows).forEach((r, i) => {
+      if (
+        i === 0 ||
+        name === '' ||
+        name == null ||
+        r.innerText.toLowerCase().indexOf(name.toLowerCase()) > -1
+      ) {
+        r.style.display = '';
+      } else {
+        r.style.display = 'none';
+      }
+    });
+  }
+
+  const ingredientSlots = document.querySelectorAll('.grid .grid-item');
+  const potionEffects = document.querySelector('#potion-effects');
+  let selectedIngredients = { 0: null, 1: null, 2: null, 3: null };
+
+  Array.from(ingredientSlots).forEach((g) => {
+    g.addEventListener('click', (e) => {
+      removeIngredientFromPotion(e.currentTarget.dataset['index']);
+    });
+  });
+
+  function addIngredientToPotion(name) {
+    if (
+      (selectedIngredients[0] != null &&
+        selectedIngredients[1] != null &&
+        selectedIngredients[2] != null &&
+        selectedIngredients[3] != null) ||
+      selectedIngredients[0]?.name === name ||
+      selectedIngredients[1]?.name === name ||
+      selectedIngredients[2]?.name === name ||
+      selectedIngredients[3]?.name === name
+    )
+      return;
+
+    let foundIngredient = data.ingredients.find((i) => {
+      return i.name.indexOf(name) > -1;
+    });
+    if (foundIngredient == null) return;
+    let index = Object.keys(selectedIngredients).find(
+      (k) => selectedIngredients[k] == null
+    );
+    ingredientSlots[index].append(createIngredientIcon(foundIngredient));
+    selectedIngredients[index] = foundIngredient;
+
+    updatePotion();
+  }
+
+  function createIngredientIcon(ingredient) {
+    const img = document.createElement('img');
+    img.classList = `ingredient ${ingredient.image} large`;
+    img.src = '/images/img_transparent.gif';
+    img.alt = ingredient.name;
+    img.title = ingredient.name;
+    return img;
+  }
+
+  function removeIngredientFromPotion(index) {
+    selectedIngredients[index] = null;
+    ingredientSlots[index].innerHTML = '';
+
+    updatePotion();
+  }
+
+  function updatePotion() {
+    const ingredients = Object.keys(selectedIngredients)
+      .filter((k) => selectedIngredients[k] != null)
+      .map((k) => selectedIngredients[k]);
+
+    let effects = {};
+    ingredients.forEach((i) => {
+      effects[i.effect1] = (effects[i.effect1] ?? 0) + 1;
+      effects[i.effect2] = (effects[i.effect2] ?? 0) + 1;
+      effects[i.effect3] = (effects[i.effect3] ?? 0) + 1;
+      effects[i.effect4] = (effects[i.effect4] ?? 0) + 1;
+    });
+    potionEffects.innerHTML = '';
+
+    Object.keys(effects).forEach((k, i) => {
+      if (effects[k] > 1) {
+        const li = document.createElement('li');
+        const img = document.createElement('img');
+        img.classList = `effect ${getEffectImage(k)} medium`;
+        img.src = '/images/img_transparent.gif';
+        img.alt = k;
+        img.title = k;
+        li.append(img);
+        li.append(' ');
+        li.append(k);
+        potionEffects.append(li);
+      }
+    });
+  }
+
+  function getEffectImage(name) {
+    let effects = data.effects.filter((e) => e.name === name);
+    if (effects.length === 0) return '';
+    return effects[0].image;
+  }
+</script>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 64px);
+    grid-gap: 10px;
+    margin-left: 1rem;
+  }
+
+  .grid-item {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+  }
+
+  .clear-search {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    font-size: var(--size-xl, 1.777rem);
+    padding-left: 1px;
+    /* outline: 1px solid red; */
+    position: absolute;
+    margin-left: calc(-2rem - 3px);
+    margin-top: 3px;
+    line-height: 2.5rem;
+  }
+
+  .search-input:not(:valid) ~ .clear-search {
+    display: none;
+  }
+
+  .potion-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-between;
+  }
+
+  .potion-effects {
+    margin-left: 1rem;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .potion-container {
+      gap: 1rem;
+      flex-direction: column;
+      justify-content: unset;
+      align-items: stretch;
+    }
+
+    .potion-container > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .potion-container > div > * {
+      width: 100%;
+    }
+
+    .grid {
+      margin-left: 0;
+      justify-content: center;
+    }
+
+    .potion-effects {
+      padding: 0 2rem;
+    }
+  }
+</style>

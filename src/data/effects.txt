@@ -1,0 +1,79 @@
+Effect Name	Image
+Blind	Effect_Blind
+Burden	Effect_Burden
+Cure Blight Disease	Effect_Cure_Blight_Disease
+Cure Common Disease	Effect_Cure_Common_Disease
+Cure Paralyzation	Effect_Cure_Paralyzation
+Cure Poison	Effect_Cure_Poison
+Damage Fatigue	Effect_Damage_Fatigue
+Damage Health	Effect_Damage_Health
+Damage Intelligence	Effect_Damage_Attribute
+Damage Magicka	Effect_Damage_Magicka
+Detect Animal	Effect_Detect_Animal
+Detect Enchantment	Effect_Detect_Enchantment
+Detect Key	Effect_Detect_Key
+Dispel	Effect_Dispel
+Drain Alteration	Effect_Drain_Skill
+Drain Agility	Effect_Drain_Attribute
+Drain Endurance	Effect_Drain_Attribute
+Drain Fatigue	Effect_Drain_Fatigue
+Drain Health	Effect_Drain_Health
+Drain Intelligence	Effect_Drain_Attribute
+Drain Luck	Effect_Drain_Attribute
+Drain Magicka	Effect_Drain_Magicka
+Drain Personality	Effect_Drain_Attribute
+Drain Speed	Effect_Drain_Attribute
+Drain Strength	Effect_Drain_Attribute
+Drain Willpower	Effect_Drain_Attribute
+Feather	Effect_Feather
+Fire Shield	Effect_Fire_Shield
+Fortify Agility	Effect_Fortify_Attribute
+Fortify Attack	Effect_Fortify_Attack
+Fortify Endurance	Effect_Fortify_Attribute
+Fortify Fatigue	Effect_Fortify_Fatigue
+Fortify Health	Effect_Fortify_Health
+Fortify Intelligence	Effect_Fortify_Attribute
+Fortify Luck	Effect_Fortify_Attribute
+Fortify Magicka	Effect_Fortify_Magicka
+Fortify Maximum Magicka	Effect_Fortify_Maximum_Magicka
+Fortify Personality	Effect_Fortify_Attribute
+Fortify Speed	Effect_Fortify_Attribute
+Fortify Strength	Effect_Fortify_Attribute
+Fortify Willpower	Effect_Fortify_Attribute
+Frost Damage	Effect_Frost_Damage
+Frost Shield	Effect_Frost_Shield
+Invisibility	Effect_Invisibility
+Levitate	Effect_Levitate
+Light	Effect_Light
+Lightning Shield	Effect_Lightning_Shield
+Night Eye	Effect_Night_Eye
+Paralyze	Effect_Paralyze
+Poison	Effect_Poison
+Recall	Effect_Recall
+Reflect	Effect_Reflect
+Resist Common Disease	Effect_Resist_Common_Disease
+Resist Fire	Effect_Resist_Fire
+Resist Frost	Effect_Resist_Frost
+Resist Magicka	Effect_Resist_Magicka
+Resist Paralysis	Effect_Resist_Paralysis
+Resist Poison	Effect_Resist_Poison
+Resist Shock	Effect_Resist_Shock
+Restore Agility	Effect_Restore_Attribute
+Restore Endurance	Effect_Restore_Attribute
+Restore Fatigue	Effect_Restore_Fatigue
+Restore Health	Effect_Restore_Health
+Restore Intelligence	Effect_Restore_Attribute
+Restore Luck	Effect_Restore_Attribute
+Restore Magicka	Effect_Restore_Magicka
+Restore Personality	Effect_Restore_Attribute
+Restore Speed	Effect_Restore_Attribute
+Restore Strength	Effect_Restore_Attribute
+Restore Willpower	Effect_Restore_Attribute
+Spell Absorption	Effect_Spell_Absorption
+Swift Swim	Effect_Swift_Swim
+Telekinesis	Effect_Telekinesis
+Vampirism	Effect_Vampirism
+Water Breathing	Effect_Water_Breathing
+Water Walking	Effect_Water_Walking
+Weakness to Fire	Effect_Weakness_to_Fire
+Weakness to Poison	Effect_Weakness_to_Poison

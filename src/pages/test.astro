@@ -1,0 +1,128 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TagsInput from '../components/TagsInput.astro';
+
+import data from '../data/data.json';
+//import * as fs from 'fs';
+//console.log(data.ingredients);
+
+// fs.readFile('./src/data/effects.txt', 'utf8', (err, data) => {
+//   if (err) throw err;
+
+//   let effects = [];
+
+//   var lines = data.split('\n');
+//   for(var i=1; i<lines.length; i++) {
+//     var parts = lines[i].split('\t');
+//     var effect = {
+//       name: parts[0].trim(),
+//       image: parts[1].trim()
+//     };
+//     effects.push(effect);
+//   }
+//   //console.log(JSON.stringify(effects));
+// });
+
+// fs.readFile('./src/data/ingredients.txt', 'utf8', (err, data) => {
+//   if (err) throw err;
+//   let ingredients = [];
+
+//   var lines = data.split('\n');
+
+//   for(var i=1; i<lines.length; i++) {
+//     let parts = lines[i].split('\t');
+
+//     var ingredient = {
+//       name: parts[0].trim(),
+//       effect1: parts[3].trim(),
+//       effect2: parts[4].trim(),
+//       effect3: parts[5].trim(),
+//       effect4: parts[6].trim(),
+//       image: parts[7].trim()
+//     };
+//     ingredients.push(ingredient);
+//   }
+//   //console.log(JSON.stringify(ingredients));
+// })
+---
+
+<Layout title="Welcome to Astro!!">
+  <main>
+    <div>
+      <h2>Ingredients</h2>
+      <TagsInput
+        text="Search Ingredients:"
+        data={data.ingredients.map((i) => i.name)}
+      />
+      <select id="select-ingredients">
+        <option>Select..</option>
+        {
+          data.ingredients.map((ingredient) => (
+            <option value={ingredient.name}>{ingredient.name}</option>
+          ))
+        }
+      </select>
+    </div>
+    <div>
+      <h2>Effects</h2>
+      <TagsInput
+        text="Search Effects:"
+        data={data.effects.map((i) => i.name)}
+      />
+      <select id="select-effects">
+        {
+          data.effects.map((effect) => (
+            <option value={effect.name}>{effect.name}</option>
+          ))
+        }
+      </select>
+    </div>
+    <div>
+      <p>Ingredients</p>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Effect 1</th>
+          <th>Effect 2</th>
+          <th>Effect 3</th>
+          <th>Effect 4</th>
+        </tr>
+        {
+          data.ingredients.map((ingredient) => (
+            <tr>
+              <td>{ingredient.name}</td>
+              <td>{ingredient.effect1}</td>
+              <td>{ingredient.effect2}</td>
+              <td>{ingredient.effect3}</td>
+              <td>{ingredient.effect4}</td>
+            </tr>
+          ))
+        }
+      </table>
+    </div>
+    <div>
+      <p>Effects</p>
+      <ul>
+        {data.effects.map((effect) => <li>{effect.name}</li>)}
+      </ul>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid rgba(var(--accent-light), 25%);
+    padding: 0.5rem;
+  }
+</style>
