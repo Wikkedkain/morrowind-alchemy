@@ -10,7 +10,7 @@ function getEffectImage(name) {
 
 function getEffectImg(name, index) {
   if (name == null || name === '') return '';
-  return `<img class="effect ${getEffectImage(name)}" src="${baseUrl}/images/img_transparent.gif" alt=${name} title=${name} loading=${index > 12 ? 'lazy' : 'eager'} />`;
+  return `<img class="effect ${getEffectImage(name)}" src="morrowind-alchemy/images/img_transparent.gif" alt=${name} title=${name} loading=${index > 12 ? 'lazy' : 'eager'} />`;
 }
 ---
 
@@ -66,7 +66,7 @@ function getEffectImg(name, index) {
           <td class="">
             <img
               class={`ingredient ${ingredient.image}`}
-              src={`${baseUrl}/images/img_transparent.gif`}
+              src={`morrowind-alchemy/images/img_transparent.gif`}
               alt={ingredient.name}
               title={ingredient.name}
               loading={index > 12 ? 'lazy' : 'eager'}
@@ -187,7 +187,7 @@ function getEffectImg(name, index) {
   function createIngredientIcon(ingredient) {
     const img = document.createElement('img');
     img.classList = `ingredient ${ingredient.image} large`;
-    img.src = `${baseUrl}/images/img_transparent.gif`;
+    img.src = `morrowind-alchemy/images/img_transparent.gif`;
     img.alt = ingredient.name;
     img.title = ingredient.name;
     return img;
@@ -219,7 +219,7 @@ function getEffectImg(name, index) {
         const li = document.createElement('li');
         const img = document.createElement('img');
         img.classList = `effect ${getEffectImage(k)} medium`;
-        img.src = `${baseUrl}/images/img_transparent.gif`;
+        img.src = `morrowind-alchemy/images/img_transparent.gif`;
         img.alt = k;
         img.title = k;
         li.append(img);
